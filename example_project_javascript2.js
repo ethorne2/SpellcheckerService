@@ -16,6 +16,7 @@ function spellcheck_response() {
         return data;
 };
 
+// fix so this runs after getting the response.
 function clear_response() {
     fs.truncateSync('response.txt', 0);
 }
@@ -23,4 +24,4 @@ function clear_response() {
 let data = 'Mizzpelled Words of the alfabet';
 spellcheck_request(data);
 spellCheckedText = spellcheck_response();
-clear_response();
+//clear_response();
