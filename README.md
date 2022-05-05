@@ -1,5 +1,5 @@
 # Spellchecker
-Spellchecking micro-service
+Spellchecking microservice
 
 To start
 - Download files
