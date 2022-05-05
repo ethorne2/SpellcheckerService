@@ -15,8 +15,9 @@ def spellcheck_response():
                    f.write('')
     return content
 
-example_text = 'Mizzpelled Words of the alfabet'
+# EXAMPLE USING SPELLCHECKER SERVICE
+example_text = 'Mizzpelled Words of the Alfabet'
 spellcheck_request(example_text)  # to execute the function
 text_spellchecked = spellcheck_response()
-# in this example, the text_spellchecked = “Here is sample text with misspelled words”
+# In example, the text_spellchecked = “Misspelled Words of the Alphabet”
 print(text_spellchecked)
