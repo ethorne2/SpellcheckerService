@@ -10,6 +10,7 @@ function spellcheck_request(data){
 };
 
 function spellcheck_response() {
+    // make loop while response is empty
         let data = fs.readFileSync('response.txt', {encoding:'utf8', flag:'r'});
         spellCheckedText = data;
         console.log(data);
