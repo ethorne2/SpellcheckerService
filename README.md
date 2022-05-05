@@ -1,0 +1,2 @@
+# SpellcheckerService
+Spellchecker microservice
