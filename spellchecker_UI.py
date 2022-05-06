@@ -1,5 +1,5 @@
 # Author: Elizabeth Thorne
-# Info: Spell Checker UI
+# Info: Spellchecker UI
 from autocorrect import Speller
 check = Speller(lang='en')
 
